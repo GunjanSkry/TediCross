@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
     "start:prod": "node dist/main.js",
     "start": "nodemon --watch 'src/**/*.ts' --exec ts-node src/main.ts -i data/",
     "lint": "eslint src/**/*.ts",
